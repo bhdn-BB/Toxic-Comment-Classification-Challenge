@@ -1,6 +1,6 @@
 import torch
 
-TRAIN_PATH = '\kaggle\working\train.csv'
+TRAIN_PATH = 'D:\\Toxic-Comment-Classification-Challenge\\kaggle\\working\\train.csv'
 MODEL_NAME = "unitary/toxic-bert"
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 VALID_SIZE = 0.2
